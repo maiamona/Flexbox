@@ -119,6 +119,11 @@ body {
 	padding-bottom: .2em;
 }
 
+video{
+	width: 50%;
+	height: 50%;
+}
+
 .navmap-list-title + .rodapePrincipal-navMap-link {
 	margin-top: 0;
 }

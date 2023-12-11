@@ -1,0 +1,31 @@
+.flexContainer:last-child { margin-top: 2em; }
+body { margin: 0; padding: 0; }
+div { height: 50px; width: 50px; }
+div:nth-child(1) {background-color: red; width: 50px; height: 50px; }
+div:nth-child(2) {background-color: blue; }
+div:nth-child(3) {background-color: green; }
+div:nth-child(4) {background-color: yellow; }
+div:nth-child(5) {background-color: pink; }
+div:nth-child(6) {background-color: black; }
+div:nth-child(7) {background-color: orange; }
+div:nth-child(8) {background-color: silver; }
+
+.flexContainer{
+    display: flex;
+    
+}
+
+.flexItem{
+    /* flex-grow: 2; */ /*pegou 2 pedasos de bolo */
+    /* flex-shrink: 1; */
+    flex: 0 1 200px;
+    /* flex-basis: 25%; o terceiro elemento acima no flex é o flex-basis*/
+}
+
+.primeiro{
+    /* flex-grow: 3; */ /*pegou 3 pedasos de bolo */
+    /* flex-shrink: 2; */
+}
+
+/*com flex-shrink: 0 ninguem diminui de tamanho */
+/*atalho do flex-grow e do flex-shrink é o flex: 1 1; primeiro elemento é do flex-grow e o segundo é do flex-shrink*/
